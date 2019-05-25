@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>Blockchain</title>
+
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/black.css">
+
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="lib/css/monokai.css">
+
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+	</script>
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section>
+				<h1>Blockchain</h1>
+			</section>
+			<section>
+				<p style="font-size: 65px; font-style:italic">“The biggest opportunity set we can think of over the next
+					decade.”</p>
+				<strong style="float: right">Bob Grifeld, CEO NASDAQ</strong>
+			</section>
+
+			<section>
+				<section>
+					<img src="images/blocks.png" alt="blocks">
+					<p><b>Blockchain</b> - is a growing list of records, called blocks, which are linked using
+						cryptography.</p>
+				</section>
+				<section>
+					<img src="images/hash.png" alt="hash">
+					<p>Each block contains a cryptographic hash of the previous block, a timestamp, and transaction
+						data.</p>
+				</section>
+				<section>
+					<img src="images/decentralization.png" alt="decentralization" width="800px" height="500px">
+					<p>Decentralization is the Essence of Blockchain</p>
+				</section>
+				<section>
+					<h3 style="margin-bottom: 50px;">Three main properties of Blockchain:</h3>
+					<ul>
+						<li>Decentralization</li>
+						<li>Transparency</li>
+						<li>Immutability</li>
+					</ul>
+				</section>
+			</section>
+
+			<section>
+				<section>
+					<img src="images/ Satoshi.jpg" alt="Satoshi">
+					<p>Blockchain was invented by Satoshi Nakamoto in 2008.</p>
+				</section>
+				<section>
+					<img src="images/bitcoin.jpg" alt="bitcoin" height="500px" width="750px">
+					<h3>Bitcoin</h3>
+				</section>
+				<section>
+					<img src="images/howdoesbitcoinwork.jpg" alt="bitcoin">
+				</section>
+				<section>
+					<img src="images/mining.jpg" alt="bitcoin">
+					<h3>What is "Mining"?</h3>
+				</section>
+				<section>
+					<img src="images/pow.jpg" alt="POW">
+					<p>The calculations are based on a Proof of Work (POW)</p>
+				</section>
+				<section>
+					<img src="images/useBitcoin.jpg" alt="bitcoin">
+				</section>
+				<section>
+					<ul style="max-width: 500px">
+						<li style="margin-bottom: 20px;">It’s decentralized and brings power back to the people.</li>
+						<li style="margin-bottom: 20px;">Freedom.</li>
+						<li style="margin-bottom: 20px;">Security.</li>
+						<li style="margin-bottom: 20px;">Low Transaction Fees.</li>
+					</ul>
+				</section>
+			</section>
+			<section data-background-image="images/thanks.png">
+			</section>
+		</div>
+	</div>
+
+	<script src="js/reveal.js"></script>
+
+	<script>
+		// More info about config & dependencies:
+		// - https://github.com/hakimel/reveal.js#configuration
+		// - https://github.com/hakimel/reveal.js#dependencies
+		// Reveal.initialize({
+		// 	dependencies: [
+		// 		{ src: 'plugin/markdown/marked.js' },
+		// 		{ src: 'plugin/markdown/markdown.js' },
+		// 		{ src: 'plugin/notes/notes.js', async: true },
+		// 		{ src: 'plugin/highlight/highlight.js', async: true }
+		// 	]
+		// });
+
+		Reveal.initialize({
+
+			// Parallax background image
+			parallaxBackgroundImage: 'images/blockchain-bg1.jpg', // e.g. "https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg"
+
+			// Parallax background size
+			parallaxBackgroundSize: '2300px 1400px', // CSS syntax, e.g. "2100px 900px" - currently only pixels are supported (don't use % or auto)
+
+			// Number of pixels to move the parallax background per slide
+			// - Calculated automatically unless specified
+			// - Set to 0 to disable movement along an axis
+			parallaxBackgroundHorizontal: 50,
+			parallaxBackgroundVertical: 50
+
+		});
+	</script>
+</body>
+
+</html>
